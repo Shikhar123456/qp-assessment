@@ -1,0 +1,23 @@
+21-12-2024 23:01:19.0906|INFO |HV000001: Hibernate Validator 6.2.5.Final
+21-12-2024 23:01:19.0919|INFO |Starting GroceryApplication using Java 17.0.11 on Shikhars-MacBook-Air.local with PID 19281 (/Users/shikharbijpuria/Downloads/grocery/target/classes started by shikharbijpuria in /Users/shikharbijpuria/Downloads/grocery)
+21-12-2024 23:01:19.0920|INFO |No active profile set, falling back to 1 default profile: "default"
+21-12-2024 23:01:20.0299|INFO |Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+21-12-2024 23:01:20.0323|INFO |Finished Spring Data repository scanning in 19 ms. Found 3 JPA repository interfaces.
+21-12-2024 23:01:20.0585|INFO |Tomcat initialized with port(s): 8080 (http)
+21-12-2024 23:01:20.0589|INFO |Initializing ProtocolHandler ["http-nio-8080"]
+21-12-2024 23:01:20.0590|INFO |Starting service [Tomcat]
+21-12-2024 23:01:20.0590|INFO |Starting Servlet engine: [Apache Tomcat/9.0.83]
+21-12-2024 23:01:20.0639|INFO |Initializing Spring embedded WebApplicationContext
+21-12-2024 23:01:20.0639|INFO |Root WebApplicationContext: initialization completed in 685 ms
+21-12-2024 23:01:20.0706|INFO |HHH000204: Processing PersistenceUnitInfo [name: default]
+21-12-2024 23:01:20.0729|INFO |HHH000412: Hibernate ORM core version 5.6.15.Final
+21-12-2024 23:01:20.0793|INFO |HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+21-12-2024 23:01:20.0834|INFO |HikariPool-1 - Starting...
+21-12-2024 23:01:21.0048|INFO |HikariPool-1 - Start completed.
+21-12-2024 23:01:21.0062|INFO |HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+21-12-2024 23:01:21.0400|INFO |HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+21-12-2024 23:01:21.0404|INFO |Initialized JPA EntityManagerFactory for persistence unit 'default'
+21-12-2024 23:01:21.0611|INFO |Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2570851e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@67d8613, org.springframework.security.web.context.SecurityContextPersistenceFilter@64fba3e6, org.springframework.security.web.header.HeaderWriterFilter@43b2e7db, org.springframework.security.web.authentication.logout.LogoutFilter@3fb1948c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6be1f37f, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3462e99a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@102c24d1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@495f7ca4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5667dd90, org.springframework.security.web.session.SessionManagementFilter@530df3ab, org.springframework.security.web.access.ExceptionTranslationFilter@39159b14, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6839d03b]
+21-12-2024 23:01:21.0761|INFO |Starting ProtocolHandler ["http-nio-8080"]
+21-12-2024 23:01:21.0772|INFO |Tomcat started on port(s): 8080 (http) with context path ''
+21-12-2024 23:01:21.0777|INFO |Started GroceryApplication in 2.134 seconds (JVM running for 2.421)

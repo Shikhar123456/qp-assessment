@@ -1,0 +1,235 @@
+22-12-2024 00:52:51.0805|INFO |Closing JPA EntityManagerFactory for persistence unit 'default'
+22-12-2024 00:52:51.0826|INFO |HikariPool-1 - Shutdown initiated...
+22-12-2024 00:52:51.0833|INFO |HikariPool-1 - Shutdown completed.
+22-12-2024 00:52:54.0350|INFO |HV000001: Hibernate Validator 6.2.5.Final
+22-12-2024 00:52:54.0355|INFO |Starting GroceryApplication using Java 17.0.11 on Shikhars-MacBook-Air.local with PID 19986 (/Users/shikharbijpuria/Downloads/grocery/target/classes started by shikharbijpuria in /Users/shikharbijpuria/Downloads/grocery)
+22-12-2024 00:52:54.0356|INFO |No active profile set, falling back to 1 default profile: "default"
+22-12-2024 00:52:54.0714|INFO |Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+22-12-2024 00:52:54.0738|INFO |Finished Spring Data repository scanning in 19 ms. Found 3 JPA repository interfaces.
+22-12-2024 00:52:55.0023|INFO |Tomcat initialized with port(s): 8080 (http)
+22-12-2024 00:52:55.0026|INFO |Initializing ProtocolHandler ["http-nio-8080"]
+22-12-2024 00:52:55.0028|INFO |Starting service [Tomcat]
+22-12-2024 00:52:55.0028|INFO |Starting Servlet engine: [Apache Tomcat/9.0.83]
+22-12-2024 00:52:55.0072|INFO |Initializing Spring embedded WebApplicationContext
+22-12-2024 00:52:55.0072|INFO |Root WebApplicationContext: initialization completed in 689 ms
+22-12-2024 00:52:55.0152|INFO |HHH000204: Processing PersistenceUnitInfo [name: default]
+22-12-2024 00:52:55.0175|INFO |HHH000412: Hibernate ORM core version 5.6.15.Final
+22-12-2024 00:52:55.0242|INFO |HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+22-12-2024 00:52:55.0292|INFO |HikariPool-1 - Starting...
+22-12-2024 00:52:55.0472|INFO |HikariPool-1 - Start completed.
+22-12-2024 00:52:55.0486|INFO |HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+22-12-2024 00:52:55.0880|INFO |HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+22-12-2024 00:52:55.0884|INFO |Initialized JPA EntityManagerFactory for persistence unit 'default'
+22-12-2024 00:52:56.0114|INFO |Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7abd75fc, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@31b67d61, org.springframework.security.web.context.SecurityContextPersistenceFilter@d99df7a, org.springframework.security.web.header.HeaderWriterFilter@fc21ff4, org.springframework.security.web.authentication.logout.LogoutFilter@2d41bb5a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@25a52a60, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2ebcbf9d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4b9dc62f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6cb3463b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2b66bf1c, org.springframework.security.web.session.SessionManagementFilter@e1c91cd, org.springframework.security.web.access.ExceptionTranslationFilter@42028589, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@64eb14da]
+22-12-2024 00:52:56.0291|INFO |Starting ProtocolHandler ["http-nio-8080"]
+22-12-2024 00:52:56.0302|INFO |Tomcat started on port(s): 8080 (http) with context path ''
+22-12-2024 00:52:56.0307|INFO |Started GroceryApplication in 2.146 seconds (JVM running for 2.441)
+22-12-2024 00:53:18.0167|INFO |Initializing Spring DispatcherServlet 'dispatcherServlet'
+22-12-2024 00:53:18.0167|INFO |Initializing Servlet 'dispatcherServlet'
+22-12-2024 00:53:18.0175|INFO |Completed initialization in 8 ms
+22-12-2024 00:54:50.0507|INFO |UserController.placeOrder: placeOrder API called
+22-12-2024 00:55:08.0190|INFO |UserController.placeOrder: placeOrder API called
+22-12-2024 00:55:08.0283|INFO |HHH000010: On release of batch it still contained JDBC statements
+22-12-2024 00:56:03.0287|INFO |Closing JPA EntityManagerFactory for persistence unit 'default'
+22-12-2024 00:56:03.0289|INFO |HikariPool-1 - Shutdown initiated...
+22-12-2024 00:56:03.0299|INFO |HikariPool-1 - Shutdown completed.
+22-12-2024 00:56:05.0284|INFO |HV000001: Hibernate Validator 6.2.5.Final
+22-12-2024 00:56:05.0286|INFO |Starting GroceryApplication using Java 17.0.11 on Shikhars-MacBook-Air.local with PID 20034 (/Users/shikharbijpuria/Downloads/grocery/target/classes started by shikharbijpuria in /Users/shikharbijpuria/Downloads/grocery)
+22-12-2024 00:56:05.0288|INFO |No active profile set, falling back to 1 default profile: "default"
+22-12-2024 00:56:05.0657|INFO |Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+22-12-2024 00:56:05.0684|INFO |Finished Spring Data repository scanning in 22 ms. Found 3 JPA repository interfaces.
+22-12-2024 00:56:05.0981|INFO |Tomcat initialized with port(s): 8080 (http)
+22-12-2024 00:56:05.0985|INFO |Initializing ProtocolHandler ["http-nio-8080"]
+22-12-2024 00:56:05.0986|INFO |Starting service [Tomcat]
+22-12-2024 00:56:05.0986|INFO |Starting Servlet engine: [Apache Tomcat/9.0.83]
+22-12-2024 00:56:06.0034|INFO |Initializing Spring embedded WebApplicationContext
+22-12-2024 00:56:06.0034|INFO |Root WebApplicationContext: initialization completed in 720 ms
+22-12-2024 00:56:06.0108|INFO |HHH000204: Processing PersistenceUnitInfo [name: default]
+22-12-2024 00:56:06.0131|INFO |HHH000412: Hibernate ORM core version 5.6.15.Final
+22-12-2024 00:56:06.0194|INFO |HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+22-12-2024 00:56:06.0241|INFO |HikariPool-1 - Starting...
+22-12-2024 00:56:06.0417|INFO |HikariPool-1 - Start completed.
+22-12-2024 00:56:06.0431|INFO |HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+22-12-2024 00:56:06.0773|INFO |HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+22-12-2024 00:56:06.0777|INFO |Initialized JPA EntityManagerFactory for persistence unit 'default'
+22-12-2024 00:56:07.0013|INFO |Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@75e92bb7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2ebcbf9d, org.springframework.security.web.context.SecurityContextPersistenceFilter@58647985, org.springframework.security.web.header.HeaderWriterFilter@33bd9ac3, org.springframework.security.web.authentication.logout.LogoutFilter@39a2e77d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@25587290, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2bee1c13, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@69e8b711, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@764a3867, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7bfc36d5, org.springframework.security.web.session.SessionManagementFilter@42028589, org.springframework.security.web.access.ExceptionTranslationFilter@2213854b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3a47bf0e]
+22-12-2024 00:56:07.0194|INFO |Starting ProtocolHandler ["http-nio-8080"]
+22-12-2024 00:56:07.0204|INFO |Tomcat started on port(s): 8080 (http) with context path ''
+22-12-2024 00:56:07.0209|INFO |Started GroceryApplication in 2.117 seconds (JVM running for 2.418)
+22-12-2024 00:56:31.0988|INFO |Initializing Spring DispatcherServlet 'dispatcherServlet'
+22-12-2024 00:56:31.0989|INFO |Initializing Servlet 'dispatcherServlet'
+22-12-2024 00:56:31.0991|INFO |Completed initialization in 2 ms
+22-12-2024 00:56:46.0487|INFO |UserController.placeOrder: placeOrder API called
+22-12-2024 00:56:52.0574|INFO |UserController.placeOrder: placeOrder API called
+22-12-2024 00:56:52.0635|INFO |HHH000010: On release of batch it still contained JDBC statements
+22-12-2024 01:01:46.0881|INFO |Closing JPA EntityManagerFactory for persistence unit 'default'
+22-12-2024 01:01:46.0885|INFO |HikariPool-1 - Shutdown initiated...
+22-12-2024 01:01:46.0894|INFO |HikariPool-1 - Shutdown completed.
+22-12-2024 01:01:49.0252|INFO |HV000001: Hibernate Validator 6.2.5.Final
+22-12-2024 01:01:49.0260|INFO |Starting GroceryApplication using Java 17.0.11 on Shikhars-MacBook-Air.local with PID 20086 (/Users/shikharbijpuria/Downloads/grocery/target/classes started by shikharbijpuria in /Users/shikharbijpuria/Downloads/grocery)
+22-12-2024 01:01:49.0261|INFO |No active profile set, falling back to 1 default profile: "default"
+22-12-2024 01:01:49.0693|INFO |Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+22-12-2024 01:01:49.0720|INFO |Finished Spring Data repository scanning in 22 ms. Found 3 JPA repository interfaces.
+22-12-2024 01:01:50.0018|INFO |Tomcat initialized with port(s): 8080 (http)
+22-12-2024 01:01:50.0022|INFO |Initializing ProtocolHandler ["http-nio-8080"]
+22-12-2024 01:01:50.0024|INFO |Starting service [Tomcat]
+22-12-2024 01:01:50.0024|INFO |Starting Servlet engine: [Apache Tomcat/9.0.83]
+22-12-2024 01:01:50.0073|INFO |Initializing Spring embedded WebApplicationContext
+22-12-2024 01:01:50.0074|INFO |Root WebApplicationContext: initialization completed in 783 ms
+22-12-2024 01:01:50.0159|INFO |HHH000204: Processing PersistenceUnitInfo [name: default]
+22-12-2024 01:01:50.0182|INFO |HHH000412: Hibernate ORM core version 5.6.15.Final
+22-12-2024 01:01:50.0251|INFO |HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+22-12-2024 01:01:50.0376|INFO |HikariPool-1 - Starting...
+22-12-2024 01:01:50.0585|INFO |HikariPool-1 - Start completed.
+22-12-2024 01:01:50.0601|INFO |HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+22-12-2024 01:01:50.0951|INFO |HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+22-12-2024 01:01:50.0955|INFO |Initialized JPA EntityManagerFactory for persistence unit 'default'
+22-12-2024 01:01:51.0205|INFO |Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2b66bf1c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@47eff554, org.springframework.security.web.context.SecurityContextPersistenceFilter@4b9dc62f, org.springframework.security.web.header.HeaderWriterFilter@e1c91cd, org.springframework.security.web.authentication.logout.LogoutFilter@848d9bc, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1e75af65, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@46b55a0e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2f9236d8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4536a09a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@56ec6ac0, org.springframework.security.web.session.SessionManagementFilter@764a3867, org.springframework.security.web.access.ExceptionTranslationFilter@fc21ff4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@716eae1]
+22-12-2024 01:01:51.0396|INFO |Starting ProtocolHandler ["http-nio-8080"]
+22-12-2024 01:01:51.0407|INFO |Tomcat started on port(s): 8080 (http) with context path ''
+22-12-2024 01:01:51.0413|INFO |Started GroceryApplication in 2.391 seconds (JVM running for 2.736)
+22-12-2024 01:02:02.0102|INFO |Initializing Spring DispatcherServlet 'dispatcherServlet'
+22-12-2024 01:02:02.0103|INFO |Initializing Servlet 'dispatcherServlet'
+22-12-2024 01:02:02.0105|INFO |Completed initialization in 2 ms
+22-12-2024 01:02:24.0384|INFO |UserController.placeOrder: placeOrder API called
+22-12-2024 01:07:29.0639|INFO |Closing JPA EntityManagerFactory for persistence unit 'default'
+22-12-2024 01:07:29.0642|INFO |HikariPool-1 - Shutdown initiated...
+22-12-2024 01:07:29.0655|INFO |HikariPool-1 - Shutdown completed.
+22-12-2024 01:07:31.0285|INFO |HV000001: Hibernate Validator 6.2.5.Final
+22-12-2024 01:07:31.0290|INFO |Starting GroceryApplication using Java 17.0.11 on Shikhars-MacBook-Air.local with PID 20127 (/Users/shikharbijpuria/Downloads/grocery/target/classes started by shikharbijpuria in /Users/shikharbijpuria/Downloads/grocery)
+22-12-2024 01:07:31.0291|INFO |No active profile set, falling back to 1 default profile: "default"
+22-12-2024 01:07:31.0618|INFO |Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+22-12-2024 01:07:31.0642|INFO |Finished Spring Data repository scanning in 19 ms. Found 3 JPA repository interfaces.
+22-12-2024 01:07:31.0905|INFO |Tomcat initialized with port(s): 8080 (http)
+22-12-2024 01:07:31.0908|INFO |Initializing ProtocolHandler ["http-nio-8080"]
+22-12-2024 01:07:31.0909|INFO |Starting service [Tomcat]
+22-12-2024 01:07:31.0909|INFO |Starting Servlet engine: [Apache Tomcat/9.0.83]
+22-12-2024 01:07:31.0964|INFO |Initializing Spring embedded WebApplicationContext
+22-12-2024 01:07:31.0964|INFO |Root WebApplicationContext: initialization completed in 643 ms
+22-12-2024 01:07:32.0057|INFO |HHH000204: Processing PersistenceUnitInfo [name: default]
+22-12-2024 01:07:32.0077|INFO |HHH000412: Hibernate ORM core version 5.6.15.Final
+22-12-2024 01:07:32.0209|INFO |HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+22-12-2024 01:07:32.0253|INFO |HikariPool-1 - Starting...
+22-12-2024 01:07:32.0404|INFO |HikariPool-1 - Start completed.
+22-12-2024 01:07:32.0418|INFO |HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+22-12-2024 01:07:32.0749|INFO |HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+22-12-2024 01:07:32.0753|INFO |Initialized JPA EntityManagerFactory for persistence unit 'default'
+22-12-2024 01:07:33.0002|INFO |Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@75e92bb7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2ebcbf9d, org.springframework.security.web.context.SecurityContextPersistenceFilter@58647985, org.springframework.security.web.header.HeaderWriterFilter@33bd9ac3, org.springframework.security.web.authentication.logout.LogoutFilter@39a2e77d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@25587290, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2bee1c13, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@69e8b711, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@764a3867, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7bfc36d5, org.springframework.security.web.session.SessionManagementFilter@42028589, org.springframework.security.web.access.ExceptionTranslationFilter@2213854b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3a47bf0e]
+22-12-2024 01:07:33.0180|INFO |Starting ProtocolHandler ["http-nio-8080"]
+22-12-2024 01:07:33.0190|INFO |Tomcat started on port(s): 8080 (http) with context path ''
+22-12-2024 01:07:33.0195|INFO |Started GroceryApplication in 2.081 seconds (JVM running for 2.323)
+22-12-2024 01:07:45.0986|INFO |Initializing Spring DispatcherServlet 'dispatcherServlet'
+22-12-2024 01:07:45.0986|INFO |Initializing Servlet 'dispatcherServlet'
+22-12-2024 01:07:45.0991|INFO |Completed initialization in 5 ms
+22-12-2024 01:07:49.0250|INFO |UserController.placeOrder: placeOrder API called
+22-12-2024 01:08:04.0595|INFO |UserController.placeOrder: placeOrder API called
+22-12-2024 01:08:04.0654|INFO |HHH000010: On release of batch it still contained JDBC statements
+22-12-2024 01:10:51.0872|INFO |Closing JPA EntityManagerFactory for persistence unit 'default'
+22-12-2024 01:10:51.0878|INFO |HikariPool-1 - Shutdown initiated...
+22-12-2024 01:10:51.0888|INFO |HikariPool-1 - Shutdown completed.
+22-12-2024 01:10:53.0803|INFO |HV000001: Hibernate Validator 6.2.5.Final
+22-12-2024 01:10:53.0809|INFO |Starting GroceryApplication using Java 17.0.11 on Shikhars-MacBook-Air.local with PID 20144 (/Users/shikharbijpuria/Downloads/grocery/target/classes started by shikharbijpuria in /Users/shikharbijpuria/Downloads/grocery)
+22-12-2024 01:10:53.0810|INFO |No active profile set, falling back to 1 default profile: "default"
+22-12-2024 01:10:54.0136|INFO |Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+22-12-2024 01:10:54.0162|INFO |Finished Spring Data repository scanning in 21 ms. Found 3 JPA repository interfaces.
+22-12-2024 01:10:54.0432|INFO |Tomcat initialized with port(s): 8080 (http)
+22-12-2024 01:10:54.0435|INFO |Initializing ProtocolHandler ["http-nio-8080"]
+22-12-2024 01:10:54.0436|INFO |Starting service [Tomcat]
+22-12-2024 01:10:54.0436|INFO |Starting Servlet engine: [Apache Tomcat/9.0.83]
+22-12-2024 01:10:54.0475|INFO |Initializing Spring embedded WebApplicationContext
+22-12-2024 01:10:54.0475|INFO |Root WebApplicationContext: initialization completed in 641 ms
+22-12-2024 01:10:54.0553|INFO |HHH000204: Processing PersistenceUnitInfo [name: default]
+22-12-2024 01:10:54.0573|INFO |HHH000412: Hibernate ORM core version 5.6.15.Final
+22-12-2024 01:10:54.0634|INFO |HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+22-12-2024 01:10:54.0678|INFO |HikariPool-1 - Starting...
+22-12-2024 01:10:54.0863|INFO |HikariPool-1 - Start completed.
+22-12-2024 01:10:54.0876|INFO |HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+22-12-2024 01:10:55.0218|INFO |HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+22-12-2024 01:10:55.0222|INFO |Initialized JPA EntityManagerFactory for persistence unit 'default'
+22-12-2024 01:10:55.0453|INFO |Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@47c15468, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@9fc2f89, org.springframework.security.web.context.SecurityContextPersistenceFilter@28d16af8, org.springframework.security.web.header.HeaderWriterFilter@6cb3463b, org.springframework.security.web.authentication.logout.LogoutFilter@3c9c91e3, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@71098fb3, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@54b35809, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@45648e75, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@e344f14, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5f877009, org.springframework.security.web.session.SessionManagementFilter@4536a09a, org.springframework.security.web.access.ExceptionTranslationFilter@67e1a5fd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@25a2c4dc]
+22-12-2024 01:10:55.0653|INFO |Starting ProtocolHandler ["http-nio-8080"]
+22-12-2024 01:10:55.0666|INFO |Tomcat started on port(s): 8080 (http) with context path ''
+22-12-2024 01:10:55.0671|INFO |Started GroceryApplication in 2.124 seconds (JVM running for 2.506)
+22-12-2024 01:11:01.0931|INFO |Initializing Spring DispatcherServlet 'dispatcherServlet'
+22-12-2024 01:11:01.0931|INFO |Initializing Servlet 'dispatcherServlet'
+22-12-2024 01:11:01.0932|INFO |Completed initialization in 1 ms
+22-12-2024 01:11:02.0255|INFO |UserController.placeOrder: placeOrder API called
+22-12-2024 01:11:06.0137|INFO |UserController.placeOrder: placeOrder API called
+22-12-2024 01:11:34.0458|INFO |UserController.placeOrder: placeOrder API called
+22-12-2024 01:13:19.0343|INFO |AdminService.addItem: item saved
+22-12-2024 01:13:59.0901|INFO |UserController.placeOrder: placeOrder API called
+22-12-2024 01:20:24.0904|INFO |Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.grocery.GroceryApplicationTests], using SpringBootContextLoader
+22-12-2024 01:20:24.0907|INFO |Could not detect default resource locations for test class [com.example.grocery.GroceryApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+22-12-2024 01:20:24.0907|INFO |Could not detect default configuration classes for test class [com.example.grocery.GroceryApplicationTests]: GroceryApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22-12-2024 01:20:24.0948|INFO |Found @SpringBootConfiguration com.example.grocery.GroceryApplication for test class com.example.grocery.GroceryApplicationTests
+22-12-2024 01:20:24.0995|INFO |Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+22-12-2024 01:20:25.0003|INFO |Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1477089c, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@663411de, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@63dd899, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@59d2400d, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@75cd8043, org.springframework.test.context.support.DirtiesContextTestExecutionListener@33b1c5c5, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5b202a3a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@10b9db7b, org.springframework.test.context.event.EventPublishingTestExecutionListener@9ef8eb7, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@34cdeda2, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6ee660fb, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@305a0c5f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4535b6d5, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1ecee32c, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@4372b9b6]
+22-12-2024 01:20:25.0125|INFO |Starting GroceryApplicationTests using Java 17.0.11 on Shikhars-MacBook-Air.local with PID 20289 (started by shikharbijpuria in /Users/shikharbijpuria/Downloads/grocery)
+22-12-2024 01:20:25.0125|INFO |No active profile set, falling back to 1 default profile: "default"
+22-12-2024 01:20:25.0134|INFO |HV000001: Hibernate Validator 6.2.5.Final
+22-12-2024 01:20:25.0471|INFO |Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+22-12-2024 01:20:25.0494|INFO |Finished Spring Data repository scanning in 19 ms. Found 3 JPA repository interfaces.
+22-12-2024 01:20:25.0765|INFO |HHH000204: Processing PersistenceUnitInfo [name: default]
+22-12-2024 01:20:25.0793|INFO |HHH000412: Hibernate ORM core version 5.6.15.Final
+22-12-2024 01:20:25.0867|INFO |HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+22-12-2024 01:20:25.0919|INFO |HikariPool-1 - Starting...
+22-12-2024 01:20:26.0135|INFO |HikariPool-1 - Start completed.
+22-12-2024 01:20:26.0149|INFO |HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+22-12-2024 01:20:26.0519|INFO |HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+22-12-2024 01:20:26.0524|INFO |Initialized JPA EntityManagerFactory for persistence unit 'default'
+22-12-2024 01:20:26.0812|INFO |Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@15a0f9, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4840ec68, org.springframework.security.web.context.SecurityContextPersistenceFilter@2a79da3a, org.springframework.security.web.header.HeaderWriterFilter@35fac3ba, org.springframework.security.web.authentication.logout.LogoutFilter@1b3a95d9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@f252762, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5693d1d2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3adbd038, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5e976553, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7cc3a7f7, org.springframework.security.web.session.SessionManagementFilter@6b2efcae, org.springframework.security.web.access.ExceptionTranslationFilter@34e53c02, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@282240]
+22-12-2024 01:20:27.0257|INFO |Started GroceryApplicationTests in 2.235 seconds (JVM running for 2.755)
+22-12-2024 01:20:27.0357|INFO |Closing JPA EntityManagerFactory for persistence unit 'default'
+22-12-2024 01:20:27.0358|INFO |HikariPool-1 - Shutdown initiated...
+22-12-2024 01:20:27.0362|INFO |HikariPool-1 - Shutdown completed.
+22-12-2024 01:21:26.0376|INFO |Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.grocery.GroceryApplicationTests], using SpringBootContextLoader
+22-12-2024 01:21:26.0378|INFO |Could not detect default resource locations for test class [com.example.grocery.GroceryApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+22-12-2024 01:21:26.0378|INFO |Could not detect default configuration classes for test class [com.example.grocery.GroceryApplicationTests]: GroceryApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22-12-2024 01:21:26.0424|INFO |Found @SpringBootConfiguration com.example.grocery.GroceryApplication for test class com.example.grocery.GroceryApplicationTests
+22-12-2024 01:21:26.0468|INFO |Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+22-12-2024 01:21:26.0475|INFO |Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1477089c, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@663411de, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@63dd899, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@59d2400d, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@75cd8043, org.springframework.test.context.support.DirtiesContextTestExecutionListener@33b1c5c5, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5b202a3a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@10b9db7b, org.springframework.test.context.event.EventPublishingTestExecutionListener@9ef8eb7, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@34cdeda2, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6ee660fb, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@305a0c5f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4535b6d5, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1ecee32c, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@4372b9b6]
+22-12-2024 01:21:26.0709|INFO |Starting GroceryApplicationTests using Java 17.0.11 on Shikhars-MacBook-Air.local with PID 20309 (started by shikharbijpuria in /Users/shikharbijpuria/Downloads/grocery)
+22-12-2024 01:21:26.0710|INFO |No active profile set, falling back to 1 default profile: "default"
+22-12-2024 01:21:26.0710|INFO |HV000001: Hibernate Validator 6.2.5.Final
+22-12-2024 01:21:27.0250|INFO |Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+22-12-2024 01:21:27.0375|INFO |Finished Spring Data repository scanning in 100 ms. Found 3 JPA repository interfaces.
+22-12-2024 01:21:27.0807|INFO |HHH000204: Processing PersistenceUnitInfo [name: default]
+22-12-2024 01:21:27.0837|INFO |HHH000412: Hibernate ORM core version 5.6.15.Final
+22-12-2024 01:21:27.0917|INFO |HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+22-12-2024 01:21:27.0975|INFO |HikariPool-1 - Starting...
+22-12-2024 01:21:28.0162|INFO |HikariPool-1 - Start completed.
+22-12-2024 01:21:28.0174|INFO |HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+22-12-2024 01:21:28.0548|INFO |HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+22-12-2024 01:21:28.0553|INFO |Initialized JPA EntityManagerFactory for persistence unit 'default'
+22-12-2024 01:21:28.0878|INFO |Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@210e2f2f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@c31419f, org.springframework.security.web.context.SecurityContextPersistenceFilter@3adbd038, org.springframework.security.web.header.HeaderWriterFilter@6b2efcae, org.springframework.security.web.authentication.logout.LogoutFilter@20e41f13, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2aac87ab, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@15a0f9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@193d7ac7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7d0333c8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@43dddfdd, org.springframework.security.web.session.SessionManagementFilter@346690d6, org.springframework.security.web.access.ExceptionTranslationFilter@5527dbb0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@483ed60e]
+22-12-2024 01:21:29.0318|INFO |Started GroceryApplicationTests in 2.826 seconds (JVM running for 3.323)
+22-12-2024 01:21:29.0426|INFO |Closing JPA EntityManagerFactory for persistence unit 'default'
+22-12-2024 01:21:29.0427|INFO |HikariPool-1 - Shutdown initiated...
+22-12-2024 01:21:29.0432|INFO |HikariPool-1 - Shutdown completed.
+22-12-2024 01:23:43.0930|INFO |Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.grocery.GroceryApplicationTests], using SpringBootContextLoader
+22-12-2024 01:23:43.0932|INFO |Could not detect default resource locations for test class [com.example.grocery.GroceryApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+22-12-2024 01:23:43.0933|INFO |Could not detect default configuration classes for test class [com.example.grocery.GroceryApplicationTests]: GroceryApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22-12-2024 01:23:43.0970|INFO |Found @SpringBootConfiguration com.example.grocery.GroceryApplication for test class com.example.grocery.GroceryApplicationTests
+22-12-2024 01:23:44.0007|INFO |Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+22-12-2024 01:23:44.0014|INFO |Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1477089c, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@663411de, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@63dd899, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@59d2400d, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@75cd8043, org.springframework.test.context.support.DirtiesContextTestExecutionListener@33b1c5c5, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5b202a3a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@10b9db7b, org.springframework.test.context.event.EventPublishingTestExecutionListener@9ef8eb7, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@34cdeda2, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6ee660fb, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@305a0c5f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4535b6d5, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1ecee32c, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@4372b9b6]
+22-12-2024 01:23:44.0126|INFO |Starting GroceryApplicationTests using Java 17.0.11 on Shikhars-MacBook-Air.local with PID 20354 (started by shikharbijpuria in /Users/shikharbijpuria/Downloads/grocery)
+22-12-2024 01:23:44.0126|INFO |No active profile set, falling back to 1 default profile: "default"
+22-12-2024 01:23:44.0129|INFO |HV000001: Hibernate Validator 6.2.5.Final
+22-12-2024 01:23:44.0424|INFO |Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+22-12-2024 01:23:44.0445|INFO |Finished Spring Data repository scanning in 17 ms. Found 3 JPA repository interfaces.
+22-12-2024 01:23:44.0710|INFO |HHH000204: Processing PersistenceUnitInfo [name: default]
+22-12-2024 01:23:44.0729|INFO |HHH000412: Hibernate ORM core version 5.6.15.Final
+22-12-2024 01:23:44.0787|INFO |HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+22-12-2024 01:23:44.0844|INFO |HikariPool-1 - Starting...
+22-12-2024 01:23:45.0016|INFO |HikariPool-1 - Start completed.
+22-12-2024 01:23:45.0029|INFO |HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+22-12-2024 01:23:45.0346|INFO |HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+22-12-2024 01:23:45.0350|INFO |Initialized JPA EntityManagerFactory for persistence unit 'default'
+22-12-2024 01:23:45.0635|INFO |Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@571c7572, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@c6a3f47, org.springframework.security.web.context.SecurityContextPersistenceFilter@2831c178, org.springframework.security.web.header.HeaderWriterFilter@7263b0c4, org.springframework.security.web.authentication.logout.LogoutFilter@478cebdb, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2123a61c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7e84a52b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2a191f83, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@c8531b9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@15a0f9, org.springframework.security.web.session.SessionManagementFilter@50a095cb, org.springframework.security.web.access.ExceptionTranslationFilter@988c126, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6f695077]
+22-12-2024 01:23:45.0968|INFO |Started GroceryApplicationTests in 1.937 seconds (JVM running for 2.361)
+22-12-2024 01:23:46.0054|INFO |Closing JPA EntityManagerFactory for persistence unit 'default'
+22-12-2024 01:23:46.0055|INFO |HikariPool-1 - Shutdown initiated...
+22-12-2024 01:23:46.0059|INFO |HikariPool-1 - Shutdown completed.
+22-12-2024 01:24:32.0879|INFO |Closing JPA EntityManagerFactory for persistence unit 'default'
+22-12-2024 01:24:32.0897|INFO |HikariPool-1 - Shutdown initiated...
+22-12-2024 01:24:32.0931|INFO |HikariPool-1 - Shutdown completed.

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+
+    <property resource="application.properties" />
+    <property name="MAX_FILE_SIZE" value="10MB" />
+    <appender name="LOG_INFO" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${logging.file.path}/info.log</file>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>INFO</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${logging.file.path}/%d{yyyy-MM-dd}/info.%i.log </fileNamePattern>
+            <maxFileSize>${MAX_FILE_SIZE}</maxFileSize>
+        </rollingPolicy>
+        <encoder>
+            <Pattern>%d{dd-MM-yyyy HH:mm:ss.SSSS}|%-5level|%msg%n</Pattern>
+        </encoder>
+    </appender>
+    <appender name="LOG_ERROR"  class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${logging.file.path}/error.log</file>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${logging.file.path}/%d{yyyy-MM-dd}/error.%i.log</fileNamePattern>
+            <maxFileSize>${MAX_FILE_SIZE}</maxFileSize>
+        </rollingPolicy>
+        <encoder>
+            <Pattern>%d{dd-MM-yyyy HH:mm:ss.SSSS}|%-5level|%msg%n</Pattern>
+        </encoder>
+    </appender>
+
+    <root level="info">
+        <appender-ref ref="LOG_INFO" />
+        <appender-ref ref="LOG_ERROR" />
+    </root>
+
+
+    <logger name="com.example.user" level="error"  >
+        <appender-ref ref="LOG_ERROR" />
+    </logger>
+
+    <logger name="com.example.user" level="info" additivity ="false" >
+        <appender-ref ref="LOG_INFO" />
+    </logger>
+
+</configuration>
